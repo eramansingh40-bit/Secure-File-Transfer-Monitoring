@@ -1,5 +1,9 @@
+Create Test File:
 echo "Test File" > monitored_folder/test.txt
 
 Test file movement:
 mkdir monitored_folder/backup
 mv monitored_folder/test.txt monitored_folder/backup/
+
+Test deletion:
+rm monitored_folder/backup/test.txt
