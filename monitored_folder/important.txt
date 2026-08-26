@@ -1,1 +1,3 @@
+echo "Original confidential data" > monitored_folder/important.txt
 
+echo "ATTACKER MODIFIED DATA" >> monitored_folder/important.txt
