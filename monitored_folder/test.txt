@@ -1,1 +1,5 @@
+echo "Test File" > monitored_folder/test.txt
 
+Test file movement:
+mkdir monitored_folder/backup
+mv monitored_folder/test.txt monitored_folder/backup/
